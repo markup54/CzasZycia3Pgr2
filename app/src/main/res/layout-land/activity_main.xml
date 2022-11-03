@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".MainActivity"
+    android:gravity="center">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/lewo"
+        android:onClick="zwieksz"/>
+
+    <TextView
+        android:id="@+id/licznikTextV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:layout_weight="2"
+        android:text="0"
+        android:textSize="64sp"
+        android:textAlignment="center"
+        android:gravity="center"
+        />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/prawo"
+        android:onClick="zmniejsz"/>
+
+
+</LinearLayout>
